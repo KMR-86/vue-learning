@@ -19,8 +19,8 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">
             <i class="fa fa-home"></i>
-            Home
             <span class="sr-only">(current)</span>
+            <router-link to="/">Home</router-link>
           </a>
         </li>
         <li class="nav-item">
@@ -28,17 +28,18 @@
             <i class="fa fa-envelope-o">
               <span class="badge badge-danger">11</span>
             </i>
-            Link
+          <router-link to="/about">about</router-link>  
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">
-            <i class="fa fa-envelope-o">
-              <span class="badge badge-warning">11</span>
-            </i>
-            Disabled
+
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <i class="fa fa-home"></i>
+            <span class="sr-only">(current)</span>
+            <router-link to="/addmeme">Upload Meme</router-link>
           </a>
         </li>
+
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
